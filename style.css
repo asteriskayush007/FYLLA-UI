@@ -1,0 +1,888 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+  font-size: 16px;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  background-color: #fdfbf5;
+  border: 2px solid #000;
+}
+
+nav {
+  height: 7rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+nav .navbar {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #000;
+}
+nav .logo {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+nav .logo img {
+  height: 100%;
+  width: 100%;
+  margin-top: 1rem;
+}
+nav .nav-links {
+  height: 100%;
+  width: 40%;
+}
+nav .nav-links ul {
+  display: none;
+  text-decoration: none;
+}
+nav .nav-links button {
+  display: none;
+}
+nav .nav-links .cicle-row {
+  display: none;
+}
+nav .dark-light {
+  background-color: #fff;
+  height: 2rem;
+  width: 4rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  align-items: left;
+  justify-content: left;
+  padding: 0.3rem;
+}
+nav .dark-light img {
+  height: 1.2rem;
+  color: #000;
+}
+nav .hamburger {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 1.7rem;
+  margin-right: 2rem;
+}
+nav .hamburger .line {
+  height: 0.2rem;
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.view-1 {
+  height: 40rem;
+  width: 100%;
+  padding: 2%;
+}
+.view-1 .about {
+  height: 6%;
+  width: 26%;
+  padding: 2%;
+}
+.view-1 .about h3 {
+  text-align: left;
+  font-size: 0.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+.view-1 .about-heading {
+  height: 50%;
+  width: 100%;
+}
+.view-1 .about-heading h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+  font-family: Monument Extended;
+  width: 50%;
+}
+.view-1 .about-img {
+  height: 40%;
+  width: 100%;
+  padding: 2%;
+}
+.view-1 .about-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 1rem;
+  font-family: "Syne", "Syne Placeholder", sans-serif;
+}
+
+.view-2 {
+  height: 80rem;
+  width: 100%;
+  padding: 2%;
+  flex-direction: column;
+}
+.view-2 .values_main {
+  height: auto;
+  width: auto;
+}
+.view-2 .values {
+  height: 3%;
+  width: 33%;
+  padding: 2%;
+}
+.view-2 .values h3 {
+  text-align: left;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+.view-2 .values-heading {
+  height: 27%;
+  width: 100%;
+}
+.view-2 .values-heading h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: Monument Extended;
+  width: 100%;
+}
+.view-2 .values-heading button {
+  font-size: 1rem;
+  margin-top: 1.6rem;
+  padding: 0.6rem 1.3rem;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.view-2 .line1 {
+  width: 100%;
+  height: 2px;
+  margin-top: 1rem;
+  background-color: #000;
+}
+.view-2 .line2 {
+  width: 100%;
+  height: 1px;
+  margin-top: 1rem;
+  background-color: #000;
+}
+.view-2 .topic_main {
+  height: auto;
+  width: auto;
+}
+.view-2 .topics {
+  height: 23%;
+  width: 100%;
+  flex-direction: column;
+}
+.view-2 .topics .svg_img {
+  height: 20%;
+  width: 30%;
+  align-items: left;
+  margin-left: -3%;
+  margin-top: 2rem;
+}
+.view-2 .topics .svg_img img {
+  height: 100%;
+  width: 100%;
+}
+.view-2 .topics .svg_heading {
+  height: 10%;
+  width: 50%;
+  text-align: left;
+  margin-top: 5%;
+}
+.view-2 .topics .svg_heading h2 {
+  font-size: 1.7rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+.view-2 .topics .svg_context {
+  height: auto;
+  width: 100%;
+  margin-top: 4%;
+}
+.view-2 .topics .svg_context p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.view-3 {
+  height: 80rem;
+  width: 100%;
+  padding: 2%;
+  flex-direction: column;
+}
+.view-3 .team {
+  height: auto;
+  width: auto;
+}
+.view-3 .ourteam {
+  height: 5%;
+  width: 10%;
+  padding: 2%;
+}
+.view-3 .ourteam h1 {
+  text-align: left;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+.view-3 .team_content {
+  height: 10%;
+  width: 100%;
+  padding: 3%;
+  margin-top: 4%;
+  border-bottom: 1px solid #000;
+}
+.view-3 .team_content p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: none;
+  font-family: "Courier New", Courier, monospace;
+}
+.view-3 .member_div {
+  height: auto;
+  width: auto;
+}
+.view-3 .team_members {
+  height: 67rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 2%;
+  border-bottom: 1px solid #000;
+}
+.view-3 .team_members .member_det {
+  height: 26%;
+  width: 100%;
+}
+.view-3 .team_members .member_det video {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 1rem;
+}
+.view-3 .team_members .member_det h2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+.view-3 .team_members .member_det h3 {
+  font-size: 0.7rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+
+.view-4 {
+  height: 50rem;
+  width: 100%;
+  padding: 2%;
+  flex-direction: column;
+}
+.view-4 .contact {
+  height: 55%;
+  width: 100%;
+}
+.view-4 .contact .contact_main {
+  height: 20%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.view-4 .contact .contact_main img {
+  width: 80%;
+  height: 80%;
+  margin-left: -7rem;
+}
+.view-4 .contact .contact_main h1 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+  margin-left: 0.6rem;
+}
+.view-4 .contact .contact_content {
+  height: 89%;
+  width: 100%;
+  padding: 2%;
+}
+.view-4 .contact .contact_content p {
+  font-size: 3.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view-4 .contact_info {
+  height: 20%;
+  width: 100%;
+  padding: 2%;
+  border-bottom: 1px solid #000;
+  margin-top: 1rem;
+}
+.view-4 .contact_info p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view-4 .contact_info button {
+  font-size: 1rem;
+  margin-top: 1.6rem;
+  padding: 0.6rem 1.3rem;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+footer {
+  height: 80rem;
+  width: 100%;
+  color: #000;
+  padding: 1rem;
+  margin-top: -10rem;
+}
+footer .logo_img {
+  height: 17rem;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+footer .logo_img img {
+  height: 30%;
+  width: 30%;
+}
+footer .logo_img h5 {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+footer .logo_img .cicle-row {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+footer .logo_img .cicle-row .circle {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 4%;
+  margin-top: 2rem;
+}
+footer .logo_img .cicle-row .circle h4 {
+  font-size: 0.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+}
+footer .pages {
+  height: 17rem;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  flex-direction: column;
+}
+footer .pages h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+footer .pages a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1rem;
+}
+footer .pages button {
+  font-size: 1rem;
+  margin-top: 1.6rem;
+  padding: 0.6rem 1.3rem;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+footer .cms,
+footer .utility-page {
+  height: 18rem;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  flex-direction: column;
+}
+footer .cms h2,
+footer .utility-page h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: Monument Extended;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+footer .cms a,
+footer .utility-page a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1rem;
+}
+
+.creator {
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.creator h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 1rem;
+}
+
+/* Media Queries */
+@media (min-width: 1020px) {
+  nav {
+    height: 7rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  nav .navbar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 0rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .navbar .logo {
+    height: 100%;
+    width: 15%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+  nav .navbar .nav-links {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+  nav .navbar .nav-links .button {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+    margin-top: 1.6rem;
+    padding: 0.6rem 1.3rem;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: red;
+    cursor: pointer;
+  }
+  nav .navbar .nav-links ul {
+    list-style-type: none;
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  nav .navbar .nav-links ul li a {
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    line-height: 1rem;
+    font-family: Monument Extended;
+  }
+  nav .navbar .nav-links .cicle-row {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  nav .navbar .nav-links .cicle-row .circle {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+  }
+  nav .navbar .nav-links .cicle-row .circle h4 {
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+  }
+  nav .navbar .nav-links .dark-light {
+    background-color: #fff;
+    height: 2rem;
+    width: 10rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    align-items: left;
+    justify-content: left;
+    padding: 0.3rem;
+    margin-right: 2rem;
+  }
+  nav .navbar .nav-links .dark-light img {
+    height: 1.2rem;
+    color: #000;
+  }
+  nav .navbar .hamburger {
+    display: none;
+  }
+  .view-1 {
+    height: 70rem;
+    width: 100%;
+    padding: 2%;
+    overflow: hidden;
+  }
+  .view-1 .about {
+    height: 10%;
+    padding: 1%;
+  }
+  .view-1 .about h3 {
+    font-size: 1rem;
+  }
+  .view-1 .about-heading {
+    height: 30%;
+  }
+  .view-1 .about-heading h1 {
+    font-size: 5rem;
+    width: 100%;
+  }
+  .view-1 .about-img {
+    height: 68%;
+  }
+  .view-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    border-bottom: 2px solid #000;
+  }
+  .view-2 .values_main {
+    width: 60%;
+  }
+  .view-2 .values_main .values {
+    height: 3%;
+    width: 33%;
+  }
+  .view-2 .values_main .values h3 {
+    font-size: 1rem;
+  }
+  .view-2 .values-heading {
+    height: 40%;
+    width: 100%;
+  }
+  .view-2 .values-heading h1 {
+    font-size: 4rem;
+  }
+  .view-2 .values-heading button {
+    font-size: 1rem;
+    margin-top: 40rem;
+  }
+  .view-2 .topic_main {
+    width: 40%;
+    padding: 2%;
+    height: 100%;
+  }
+  .view-2 .line1 {
+    height: 70rem;
+    width: 0.09%;
+    margin-top: 1rem;
+    background-color: #000;
+  }
+  .view-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+  }
+  .view-3 .team {
+    width: 40%;
+    height: 100%;
+  }
+  .view-3 .team_content {
+    border-bottom: none;
+  }
+  .view-3 .line1 {
+    height: 50rem;
+    width: 0.09%;
+    margin-top: 1rem;
+    background-color: #000;
+  }
+  .view-3 .member_div {
+    width: 100%;
+    height: 100%;
+  }
+  .view-3 .member_div .team_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    height: auto;
+    width: 100%;
+    border-bottom: none;
+  }
+  .view-3 .member_div .team_members .member_det {
+    width: calc(50% - 1rem);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .view-3 .member_div .team_members .member_det h2, .view-3 .member_div .team_members .member_det h3 {
+    text-align: left;
+    margin-top: 2%;
+  }
+  .view-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 40rem;
+    width: auto;
+  }
+  .view-4 .contact {
+    height: 100%;
+    width: 60%;
+    border-right: 1px solid #000;
+  }
+  .view-4 .contact .contact_main {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .view-4 .contact .contact_main img {
+    width: 20%;
+    height: 80%;
+    margin-left: 1rem;
+    margin-top: 25rem;
+    position: absolute;
+  }
+  .view-4 .contact .contact_main h1 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+    margin-left: 0.6rem;
+  }
+  .view-4 .contact .contact_content {
+    height: 80%;
+    width: 100%;
+    padding: 2%;
+    margin-top: -6rem;
+  }
+  .view-4 .contact .contact_content p {
+    font-size: 3.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .view-4 .contact_info {
+    height: 20%;
+    width: 40%;
+    padding: 2%;
+    border-bottom: none;
+    margin-top: 1rem;
+  }
+  .view-4 .contact_info p {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .view-4 .contact_info button {
+    font-size: 1rem;
+    margin-top: 20rem;
+    padding: 0.6rem 1.3rem;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  footer {
+    height: 23rem;
+    width: 100%;
+    color: #000;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-bottom: 1px solid #000;
+    display: flex;
+  }
+  footer .logo_img {
+    height: 18rem;
+    width: 100%;
+    border-bottom: none;
+    border-right: 1px solid #000;
+  }
+  footer .logo_img img {
+    height: 30%;
+    width: 30%;
+  }
+  footer .logo_img h5 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+  }
+  footer .logo_img .cicle-row {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+  }
+  footer .logo_img .cicle-row .circle {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 4%;
+    margin-top: 2rem;
+  }
+  footer .logo_img .cicle-row .circle h4 {
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+  }
+  footer .pages {
+    height: 18rem;
+    width: 100%;
+    border-bottom: none;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  footer .pages h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  footer .pages a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1rem;
+  }
+  footer .pages button {
+    font-size: 1rem;
+    margin-top: 1.6rem;
+    padding: 0.6rem 1.3rem;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  footer .cms,
+  footer .utility-page {
+    height: 18rem;
+    width: 100%;
+    border-bottom: none;
+    flex-direction: column;
+  }
+  footer .cms h2,
+  footer .utility-page h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Monument Extended;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  footer .cms a,
+  footer .utility-page a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1rem;
+  }
+  footer .creator {
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  footer .creator h3 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
