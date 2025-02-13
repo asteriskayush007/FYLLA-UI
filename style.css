@@ -339,7 +339,6 @@ nav .hamburger .line {
   height: 70%;
   width: 100%;
   padding: 2%;
-  background-color: red;
 }
 .view-4 .contact .contact_content p {
   font-size: 3rem;
@@ -351,7 +350,6 @@ nav .hamburger .line {
   height: 25%;
   width: 100%;
   padding: 2%;
-  background-color: green;
   border-bottom: 1px solid #000;
   margin-top: 1rem;
 }
