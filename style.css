@@ -336,20 +336,22 @@ nav .hamburger .line {
   margin-left: 0.6rem;
 }
 .view-4 .contact .contact_content {
-  height: 90%;
+  height: 70%;
   width: 100%;
   padding: 2%;
+  background-color: red;
 }
 .view-4 .contact .contact_content p {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 100;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
 .view-4 .contact_info {
-  height: 50%;
+  height: 25%;
   width: 100%;
   padding: 2%;
+  background-color: green;
   border-bottom: 1px solid #000;
   margin-top: 1rem;
 }
