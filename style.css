@@ -1,3 +1,7 @@
+@font-face {
+  font-family: main;
+  src: url("./MonumentExtended-Regular.otf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +107,7 @@ nav .hamburger .line {
   font-size: 0.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 .view-1 .about-heading {
   height: 50%;
@@ -112,7 +116,7 @@ nav .hamburger .line {
 .view-1 .about-heading h1 {
   font-size: 3.5rem;
   font-weight: 100;
-  font-family: Monument Extended;
+  font-family: "main";
   width: 50%;
 }
 .view-1 .about-img {
@@ -152,7 +156,7 @@ nav .hamburger .line {
   font-size: 0.8rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 .view-2 .values-heading {
   height: 27%;
@@ -161,7 +165,7 @@ nav .hamburger .line {
 .view-2 .values-heading h1 {
   font-size: 2rem;
   font-weight: 100;
-  font-family: Monument Extended;
+  font-family: main;
   width: 100%;
 }
 .view-2 .values-heading button {
@@ -217,7 +221,7 @@ nav .hamburger .line {
   font-size: 1.7rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 .view-2 .topics .svg_context {
   height: auto;
@@ -252,7 +256,7 @@ nav .hamburger .line {
   font-size: 1.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 .view-3 .team_content {
   height: 10%;
@@ -295,13 +299,13 @@ nav .hamburger .line {
   font-size: 1.2rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 .view-3 .team_members .member_det h3 {
   font-size: 0.7rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 
 .view-4 {
@@ -328,7 +332,7 @@ nav .hamburger .line {
   font-size: 1.3rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
   margin-left: 0.6rem;
 }
 .view-4 .contact .contact_content {
@@ -388,7 +392,7 @@ footer .logo_img h5 {
   margin-top: 1rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 footer .logo_img .cicle-row {
   height: 70%;
@@ -411,7 +415,7 @@ footer .logo_img .cicle-row .circle h4 {
   font-size: 0.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
 }
 footer .pages {
   height: 17rem;
@@ -423,7 +427,7 @@ footer .pages h2 {
   font-size: 1.3rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -457,7 +461,7 @@ footer .utility-page h2 {
   font-size: 1.3rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-family: Monument Extended;
+  font-family: main;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -543,7 +547,7 @@ footer .utility-page a {
     color: #000;
     text-decoration: none;
     line-height: 1rem;
-    font-family: Monument Extended;
+    font-family: main;
   }
   nav .navbar .nav-links .cicle-row {
     height: 70%;
@@ -568,7 +572,7 @@ footer .utility-page a {
     font-size: 0.6rem;
     font-weight: 300;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
   }
   nav .navbar .nav-links .dark-light {
     background-color: #fff;
@@ -728,7 +732,7 @@ footer .utility-page a {
     font-size: 1.3rem;
     font-weight: 100;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
     margin-left: 0.6rem;
   }
   .view-4 .contact .contact_content {
@@ -791,7 +795,7 @@ footer .utility-page a {
     margin-top: 1rem;
     font-weight: 300;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
   }
   footer .logo_img .cicle-row {
     height: 70%;
@@ -814,7 +818,7 @@ footer .utility-page a {
     font-size: 0.6rem;
     font-weight: 300;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
   }
   footer .pages {
     height: 18rem;
@@ -827,7 +831,7 @@ footer .utility-page a {
     font-size: 1.3rem;
     font-weight: 100;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
@@ -861,7 +865,7 @@ footer .utility-page a {
     font-size: 1.3rem;
     font-weight: 100;
     text-transform: uppercase;
-    font-family: Monument Extended;
+    font-family: main;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
